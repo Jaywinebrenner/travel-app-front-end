@@ -1,0 +1,10 @@
+<h1>TRAVEL TIME!</h1>
+
+
+<div class="destination-list">
+  <% @destinations.each do |destination| %>
+  <div class="destination-country">
+    <h2><%= destination.fetch("city") %></h2>
+  </div>
+
+  <% end %>
