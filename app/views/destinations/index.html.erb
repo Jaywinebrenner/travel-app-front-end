@@ -3,8 +3,8 @@
 
 <div class="destination-list">
   <% @destinations.each do |destination| %>
-  <div>
-    <h2><%= link_to destination.fetch("country"), destination_path(destination) %></h2>
-  </div>
+
+        <h2><%= link_to destination.fetch("country") %></h2>
 
   <% end %>
+</div>

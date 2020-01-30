@@ -41,3 +41,6 @@ Things you may want to cover:
 
 
   <li><%= link_to product.name, product_path(product)%></li>
+
+
+    <h2><%= link_to destination.fetch("country"), destination_path(destination) %></h2>
